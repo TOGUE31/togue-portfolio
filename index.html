@@ -1,208 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez le portfolio de TOGUÈ KAMBOU, développeur Full-Stack spécialisé en Nuxt 4 et FastAPI.">
-    <title>Portfolio - TOGUÈ KAMBOU | Développeur Full-Stack</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Togué Kambou — Développeur Full-Stack JavaScript &amp; Python</title>
+<meta name="description" content="Développeur Full-Stack au Burkina Faso : interfaces Vue.js et Nuxt, API FastAPI, applications e-commerce, fintech et logistiques. Consultez mes projets et contactez-moi.">
+<link rel="canonical" href="https://toguekambouportfolio.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Togué Kambou — Développeur Full-Stack JavaScript &amp; Python">
+<meta property="og:description" content="Interfaces Vue/Nuxt, API FastAPI et logique métier pour des produits e-commerce, fintech et logistiques.">
+<meta property="og:url" content="https://toguekambouportfolio.vercel.app/">
+<meta property="og:image" content="https://toguekambouportfolio.vercel.app/ressource/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0b1424">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1424'/%3E%3Ctext x='16' y='22' font-size='16' font-weight='700' font-family='sans-serif' text-anchor='middle' fill='%233dd6c4'%3ETK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700&family=Source+Sans+3:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Togué Kambou","jobTitle":"Développeur Full-Stack JavaScript & Python","url":"https://toguekambouportfolio.vercel.app/","email":"toguekambou30@gmail.com","address":{"@type":"PostalAddress","addressCountry":"BF"},"sameAs":["https://github.com/TOGUE31","https://www.linkedin.com/in/b%C3%B4nir%C3%A8-kambou-3577a9346"]}</script>
 </head>
 <body>
-
-    <div class="btn-menu">
-        <div class="ligne-cont">  
-            <div class="ligne-unique"></div>
-        </div>
-    </div>
-
-    <nav class="navigation">
-        <div class="menu-blocs">
-            <div class="portrait">
-                <img src="ressource/togue.jpeg" alt="TOGUÈ KAMBOU">
-            </div>
-        </div>
-        <div class="menu-blocs"><span class="item-menu"><a href="#acc">Accueil</a></span></div>
-        <div class="menu-blocs"><span class="item-menu"><a href="#pres">Présentation</a></span></div>
-        <div class="menu-blocs"><span class="item-menu"><a href="#port">Projets</a></span></div>
-        <div class="menu-blocs"><span class="item-menu"><a href="#range">Compétences</a></span></div>
-        <div class="menu-blocs"><span class="item-menu"><a href="#exp">Parcours</a></span></div>
-        <div class="menu-blocs"><span class="item-menu"><a href="#cont">Contact</a></span></div>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#accueil">Togué Kambou</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav id="menu" aria-label="Navigation principale">
+      <a href="#accueil">Accueil</a><a href="#apropos">À propos</a><a href="#competences">Compétences</a><a href="#projets">Projets</a><a href="#experience">Expérience</a><a class="nav-cta" href="#contact">Contact</a>
     </nav>
+  </div>
+</header>
 
-    <section class="accueil" id="acc">
-        <h1>TOGUÈ KAMBOU</h1>
-        <p class="animation">Développeur Full-Stack JavaScript & Python</p>
-        <div class="btn-group">
-            <a href="#port" class="btn-car btn-car1">Mes Projets</a>
-            <a href="#exp" class="btn-car btn-car2">Expériences</a>
-        </div>
-        <div class="medias">
-            <a href="https://github.com/TOGUE31" target="_blank" class="logo-medias"><img src="ressource/github-100.png" alt="GitHub"/></a>
-            <a href="https://www.linkedin.com/in/bônirè-kambou-3577a9346" target="_blank" class="logo-medias"><img src="ressource/linkedin-100.png" alt="LinkedIn"/></a>
-        </div>
-        <a href="#pres" class="btn-rond"><img src="ressource/fleche.png" alt="Suivant"/></a>
-    </section> 
+<main id="main">
+<section id="accueil" class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <h1>Togué Kambou</h1>
+      <p class="role">Développeur Full-Stack JavaScript &amp; Python</p>
+      <p class="lead">Je conçois des applications web complètes : interfaces Vue et Nuxt, API FastAPI et logique métier, pour des produits e-commerce, fintech et logistiques.</p>
+      <p class="cta-row"><a class="btn primary" href="#projets">Voir mes projets</a><a class="btn" href="#contact">Me contacter</a></p>
+      <p class="social"><a href="https://github.com/TOGUE31" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/b%C3%B4nir%C3%A8-kambou-3577a9346" rel="noopener">LinkedIn</a></p>
+    </div>
+    <ol class="layers" aria-label="Les couches d'une application sur lesquelles j'interviens">
+      <li><b>Interface</b><span>Vue.js, Nuxt 4, Tailwind CSS</span></li>
+      <li><b>API</b><span>FastAPI, Node.js, REST</span></li>
+      <li><b>Données</b><span>PostgreSQL, MySQL</span></li>
+      <li><b>Services</b><span>paiement, expéditions, intégrations tierces</span></li>
+    </ol>
+  </div>
+</section>
 
-    <section class="presentation" id="pres">
-        <h2 class="titre1">Expertise Technique</h2>
-        <div class="container">
-            <div class="fond-form"></div>
-            <div class="pres-gauche">
-                <h3>Spécialiste Nuxt 4 & FastAPI</h3><br>
-                <p>Développeur Full-Stack basé au Burkina Faso, j'accompagne les entreprises dans la création de solutions Fintech et E-commerce performantes.</p><br>
-                <p>Mon approche combine la puissance de <strong>FastAPI</strong> pour des backends robustes et la modernité de <strong>Nuxt 4</strong> pour des interfaces ultra-rapides.</p>
-            </div>
-            <div class="pres-droite">
-                <ul class="liste1">
-                    <li class="items-liste"><span class="chiffre">1.</span><p class="txt-liste">Architecture API (FastAPI)</p></li>
-                    <li class="items-liste"><span class="chiffre">2.</span><p class="txt-liste">Frontend Moderne (Nuxt 4 / Vue 3)</p></li>
-                    <li class="items-liste"><span class="chiffre">3.</span><p class="txt-liste">Dashboards d'administration</p></li>
-                    <li class="items-liste"><span class="chiffre">4.</span><p class="txt-liste">Intégration Fintech & Paiement</p></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<section id="apropos" class="sec">
+  <div class="wrap about">
+    <img src="ressource/togue-640.jpg" width="640" height="717" alt="Portrait de Togué Kambou" loading="lazy">
+    <div>
+      <h2>À propos</h2>
+      <p>Depuis janvier 2024, je développe des produits en production chez Gandyam Ligdi, de l'interface jusqu'à l'API. Mon travail porte sur des applications qui gèrent des commandes, des paiements, des transferts d'argent et des expéditions.</p>
+      <p>Je cherche à écrire un code fiable et facile à faire évoluer, et à comprendre la logique métier avant de la coder. Je suis basé au Burkina Faso et je travaille à distance.</p>
+      <p>Je peux rejoindre une équipe produit, ou concevoir et faire évoluer une application avec vous.</p>
+    </div>
+  </div>
+</section>
 
-    <section class="portfolio" id="port">
-        <h2 class="titre2">Mes Réalisations</h2>
-        <div class="mon-port">
+<section id="competences" class="sec alt">
+  <div class="wrap">
+    <h2>Compétences</h2>
+    <div class="skills">
+      <section><h3>Frontend</h3><p>JavaScript, TypeScript, Vue.js, Nuxt 4, React.js, Tailwind CSS</p></section>
+      <section><h3>Backend et API</h3><p>Python, FastAPI, Node.js, Express.js, API REST</p></section>
+      <section><h3>Données</h3><p>PostgreSQL, MySQL, SQL</p></section>
+      <section><h3>Outils et mobile</h3><p>Git, GitHub, Docker, Figma, Capacitor</p></section>
+    </div>
+  </div>
+</section>
 
-            <div class="vagues vague1">
-                <div class="img-port">
-                    <img src="ressource/logo-pay.ico" alt="img Compétences"/>
-                </div>
-                <h3>Gandyampay</h3>
-                <p>Plateforme de paiement. UI/UX et Dashboard complet réalisés avec Vue.js et TailwindCSS.</p>
-                <a href="https://gandyampay.com/" target="_blank" class="btn-pro">Voir le site</a>
-            </div>
+<section id="projets" class="sec paper">
+  <div class="wrap">
+    <h2>Projets</h2>
+    <p class="intro">Une sélection de produits sur lesquels j'ai travaillé. Le code des projets professionnels reste privé.</p>
+    <div class="cards">
+      <article class="card wide">
+        <h3>Djalila Shipping</h3>
+        <p class="ctx">Projet professionnel, Gandyam Ligdi</p>
+        <p>Marketplace e-commerce et logistique internationale : catalogue, commandes, tarification et suivi des expéditions, avec une application Android.</p>
+        <p><b>Mon rôle :</b> développement et évolution de l'interface Nuxt 4 et de l'API FastAPI, en équipe (authentification, commandes, paiements, expéditions).</p>
+        <ul class="tags"><li>Nuxt 4</li><li>Vue.js</li><li>TypeScript</li><li>FastAPI</li><li>Python</li><li>PostgreSQL</li></ul>
+        <p class="links"><a href="https://djalilashipping.com" rel="noopener">Site officiel</a><a href="https://play.google.com/store/apps/details?id=com.djalilashipping.app" rel="noopener">Application Android</a></p>
+      </article>
+      <article class="card">
+        <h3>Gandyam Pay</h3>
+        <p class="ctx">Projet professionnel, Gandyam Ligdi</p>
+        <p>Solution de transfert d'argent avec interfaces utilisateur et tableaux de bord.</p>
+        <p><b>Mon rôle :</b> interfaces et parcours de transfert, intégration des services, amélioration de l'expérience utilisateur.</p>
+        <p class="links"><a href="https://gandyampay.com/" rel="noopener">Voir le site</a></p>
+      </article>
+      <article class="card">
+        <h3>Payzen</h3>
+        <p class="ctx">Projet pour un client</p>
+        <p>Plateforme de transfert d'argent avec site et tableau de bord de gestion des transactions.</p>
+        <p><b>Mon rôle :</b> développement du site et du dashboard avec Vue.js et TypeScript, interfaces sécurisées, optimisation de l'UX.</p>
+        <ul class="tags"><li>Vue.js</li><li>TypeScript</li></ul>
+        <p class="links"><a href="https://payzenapp.org" rel="noopener">Voir le site</a></p>
+      </article>
+      <article class="card">
+        <h3>Gandyam Cargo</h3>
+        <p class="ctx">Projet professionnel, Gandyam Ligdi</p>
+        <p>Logistique internationale : suivi des colis, notifications et gestion des livraisons.</p>
+        <p><b>Mon rôle :</b> interfaces et tableaux de bord de suivi et de gestion.</p>
+        <p class="links"><a href="https://cargo.gandyam.com/" rel="noopener">Voir le site</a></p>
+      </article>
+      <article class="card">
+        <h3>Togué Delivery</h3>
+        <p class="ctx">Projet personnel, en développement</p>
+        <p>Service de livraison locale : demandes, adresses, règles métier, budgets et frais de service.</p>
+        <p><b>Mon rôle :</b> conception et développement complets, interface et API.</p>
+        <ul class="tags"><li>Vue 3</li><li>Nuxt 4</li><li>Tailwind CSS 4</li><li>FastAPI</li></ul>
+        <p class="note">Code source privé, présentation sur demande.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
-            <div class="vagues vague1">
-                <div class="img-port">
-                    <img src="ressource/logo-payzen.png" alt="img Compétences"/>
-                </div>
-                <h3>Payzen</h3>
-                <p>Solution de transfert d'argent. Développement Front-end et Dashboard sous Vue.js & TypeScript.</p>
-                <a href="https://payzenapp.org" target="_blank" class="btn-pro">Visiter Payzen</a>
-            </div>
+<section id="experience" class="sec">
+  <div class="wrap">
+    <h2>Expérience</h2>
+    <article class="job">
+      <h3>Développeur Full-Stack, Gandyam Ligdi</h3>
+      <p class="ctx">Janvier 2024 à aujourd'hui, Burkina Faso, télétravail</p>
+      <ul>
+        <li>Développement et évolution d'une marketplace e-commerce : API FastAPI et interfaces Nuxt 4.</li>
+        <li>Interfaces et tableaux de bord pour des produits fintech et logistiques.</li>
+        <li>Lead front-end d'un projet crypto : dashboard en temps réel et intégration d'API de données de marché.</li>
+        <li>Contribution aux parcours de transfert d'argent, à la gestion des commandes et aux corrections techniques.</li>
+      </ul>
+    </article>
+  </div>
+</section>
 
-            <div class="vagues vague2">
-                <div class="img-port">
-                    <img src="ressource/logo-cargo.ico" alt="img Compétences"/>
-                </div>
-                <h3>Gandyam Cargo</h3>
-                <p>Gestion logistique. Interface de suivi et dashboard d'administration en temps réel.</p>
-                <a href="https://cargo.gandyam.com/" target="_blank" class="btn-pro">Découvrir</a>
-            </div>
+<section id="contact" class="sec alt">
+  <div class="wrap contact">
+    <div>
+      <h2>Contact</h2>
+      <p>Pour un recrutement ou un projet, écrivez-moi : je réponds en général par WhatsApp ou par e-mail.</p>
+      <ul class="clist">
+        <li><a href="mailto:toguekambou30@gmail.com">toguekambou30@gmail.com</a></li>
+        <li><a href="https://wa.me/22656995313" rel="noopener">WhatsApp, +226 56 99 53 13</a></li>
+        <li><a href="https://github.com/TOGUE31" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/b%C3%B4nir%C3%A8-kambou-3577a9346" rel="noopener">LinkedIn</a></li>
+        <li><a href="ressource/CV-Togue-Kambou.pdf" download>Télécharger mon CV (PDF)</a></li>
+      </ul>
+    </div>
+    <form id="wa-form">
+      <label for="nom">Votre nom</label>
+      <input id="nom" name="nom" autocomplete="name" required>
+      <label for="msg">Votre message</label>
+      <textarea id="msg" name="msg" rows="4" required></textarea>
+      <button class="btn primary" type="submit">Continuer sur WhatsApp</button>
+      <p class="note">Ce formulaire ouvre WhatsApp avec votre message prérempli. Rien n'est enregistré sur un serveur.</p>
+    </form>
+  </div>
+</section>
+</main>
 
-            <div class="vagues vague2">
-                <div class="img-port">
-                    <img src="ressource/nuxt.ico" alt="img Compétences"/>
-                </div>
-                <h3>E-commerce (Projet Pro)</h3>
-                <p>Backend complet en <strong>FastAPI</strong> et Frontend en <strong>Nuxt 4</strong> avec gestion des stocks.</p>
-                <span class="btn-pro">En cours de déploiement</span>
-            </div>
-
-            <div class="vagues vague3">
-                <div class="img-port">
-                    <img src="ressource/logo-bykex.png" alt="img Compétences"/>
-                </div>
-                <h3>Crypto Dashboard</h3>
-                <p>Interface de suivi de crypto-monnaies avec intégration d'API et Nuxt 4.</p>
-                <span class="btn-pro">Projet Professionnel</span>
-            </div>
-
-            <div class="vagues vague3">
-                <div class="img-port">
-                    <img src="ressource/logo-yatie.png" alt="img Compétences"/>
-                </div>
-                <h3>E-commerce (Perso)</h3>
-                <p>Ma propre plateforme full-stack développée avec Node.js, Express et Vue 3.</p>
-                <a href="https://github.com/TOGUE31" target="_blank" class="btn-pro">Code Source</a>
-            </div>
-        </div>
-    </section>
-
-    <section class="range" id="range">
-        <h2 class="titre3">Stack Technique</h2>
-        <div class="grille">
-            <div class="cont-range"><p class="skill">Nuxt 4 / Vue 3</p><p class="number-skill">90%</p><div class="bare b1"></div><div class="grises"></div></div>
-            <div class="cont-range"><p class="skill">FastAPI (Python)</p><p class="number-skill">85%</p><div class="bare b2"></div><div class="grises"></div></div>
-            <div class="cont-range"><p class="skill">JavaScript / TypeScript</p><p class="number-skill">85%</p><div class="bare b3"></div><div class="grises"></div></div>
-            <div class="cont-range"><p class="skill">Node.js / Express</p><p class="number-skill">80%</p><div class="bare b6"></div><div class="grises"></div></div> 
-            <div class="cont-range"><p class="skill">MySQL / SQL</p><p class="number-skill">80%</p><div class="bare b7"></div><div class="grises"></div></div>
-            <div class="cont-range"><p class="skill">Tailwind CSS</p><p class="number-skill">90%</p><div class="bare b4"></div><div class="grises"></div></div>
-        </div>
-    </section>
-    
-    <section class="citations" id="cita">
-        <h2 class="bg">Générateur de citation aléatoire</h2>
-        <div class="citation">
-            <p class="genere">Cliquer sur le bouton pour voir une nouvelle citation</p>
-            <button class="result">Nouvelle citation</button>
-        </div>
-    </section>
-
-    <section class="experiences" id="exp">
-        <h2 class="titre4">Expériences</h2>
-        <div class="cont-exp">
-            <div class="bar-verti">
-                <div class="boule"><img src="ressource/dev-.png" alt="Dev"/></div>
-                <div class="boule"><img src="ressource/logo-google-96.png" alt="Formation"/></div>
-            </div>
-
-            <div class="flex-exp">
-                <div class="bloc bloc1">
-                    <div class="bloc-content">
-                        <p class="titre-content-exp">GANDYAM LIDGI, 2024 - Présent</p>
-                        <p class="text-exp">Développeur Full-Stack : Lead sur le backend FastAPI et le frontend Nuxt 4. Création de dashboards pour les services de transfert et e-commerce.</p>
-                    </div>
-                </div>
-
-                <div class="bloc bloc2">
-                    <div class="bloc-content">
-                        <p class="titre-content-exp">Certifications Web, 2023</p>
-                        <p class="text-exp">Spécialisation en développement d'APIs Python (FastAPI) et maîtrise de la stack JavaScript (React, Node) via OpenClassrooms et Mimo.</p>
-                    </div>
-                </div>
-            </div>   
-        </div>
-    </section>
-
-    <section class="contacter" id="cont">
-        <h2>Me contacter pour un projet</h2>
-        <div class="cont-form">
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="prenom">Prénom</label>
-                    <input type="text" id="prenom" required>
-                </div>
-                <div class="form-group">
-                    <label for="nom">Nom</label>
-                    <input type="text" id="nom" required>
-                </div>
-                <div class="form-group">
-                    <textarea id="txt" placeholder="Décrivez votre projet (E-commerce, API, Dashboard...)" required></textarea>
-                </div>
-                <div class="form-group">
-                  <button type="submit" class="button-sub"> ENVOYER LE MESSAGE </button> 
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 TOGUÈ KAMBOU. Développeur Full-Stack au Burkina Faso.</p>
-    </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="script.js"></script>
+<footer class="foot"><div class="wrap"><p>© <span id="an">2026</span> Togué Kambou, développeur Full-Stack au Burkina Faso.</p></div></footer>
+<script src="script.js" defer></script>
 </body>
 </html>
